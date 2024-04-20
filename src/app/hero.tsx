@@ -1,7 +1,6 @@
 "use client";
 
-import { IconButton, Typography } from "@material-tailwind/react";
-
+import { Typography } from "@/components/tailwind/compo";
 function Hero() {
   return (
     <div className='relative w-full'>

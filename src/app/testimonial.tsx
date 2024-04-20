@@ -8,7 +8,7 @@ import {
   CardBody,
   Avatar,
   IconButton,
-} from "@material-tailwind/react";
+} from "@/components/tailwind/compo";
 
 export function Testimonial() {
   const [active, setActive] = React.useState(3);

@@ -1,5 +1,5 @@
 "use client";
-import { Typography } from "@material-tailwind/react";
+import { Typography } from "@/components/tailwind/compo";
 import {
   AcademicCapIcon,
   BriefcaseIcon,
@@ -8,9 +8,6 @@ import {
 
 import InfoCard from "@/components/info-card";
 import { useInView } from "react-intersection-observer";
-import { useAnimation } from "framer-motion";
-import { motion } from "framer-motion";
-import { useEffect } from "react";
 
 const EDUCATION = [
   {
