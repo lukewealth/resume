@@ -8,8 +8,7 @@ function Hero() {
       <div className='grid place-items-center min-h-[92vh] px-8'>
         <div className='container mx-auto grid place-items-center h-max text-center'>
           <Typography variant='h1' color='blue-gray'>
-            Luke Okagha - Tech Innovator & Co-founder of TRICODE Professional
-            Remote Network
+            Technical Product Manager
           </Typography>
           <Typography
             variant='lead'
@@ -19,20 +18,6 @@ function Hero() {
             Welcome to the online portfolio of Luke Okagha, a visionary tech
             innovator, and co-founder of TRICODE Professional Remote Network.
           </Typography>
-          <Typography className='mt-12 mb-4 text-blue-gray-900 font-medium uppercase'>
-            Connect me on:
-          </Typography>
-          <div className='gap-2 lg:flex'>
-            <IconButton variant='text' color='gray'>
-              <i className='fa-brands fa-facebook text-lg' />
-            </IconButton>
-            <IconButton variant='text' color='gray'>
-              <i className='fa-brands fa-instagram text-lg' />
-            </IconButton>
-            <IconButton variant='text' color='gray'>
-              <i className='fa-brands fa-github text-lg' />
-            </IconButton>
-          </div>
         </div>
       </div>
     </div>

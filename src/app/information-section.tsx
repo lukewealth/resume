@@ -7,6 +7,10 @@ import {
 } from "@heroicons/react/24/solid";
 
 import InfoCard from "@/components/info-card";
+import { useInView } from "react-intersection-observer";
+import { useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const EDUCATION = [
   {
@@ -74,8 +78,10 @@ const SKILLS = [
 ];
 
 export function InformationSection() {
+  const { ref, inView } = useInView({ threshold: 0.5 });
+
   return (
-    <section className='pb-28 px-8'>
+    <section ref={ref} className='pb-28  px-8'>
       <div className='grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start'>
         <div>
           <div className='mb-10'>
@@ -88,7 +94,7 @@ export function InformationSection() {
           </div>
           <div className='container mx-auto grid grid-cols-1 gap-16 gap-y-12'>
             {EDUCATION.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
+              <InfoCard inView={inView} key={idx} {...props} />
             ))}
           </div>
         </div>
@@ -103,7 +109,7 @@ export function InformationSection() {
           </div>
           <div className='container mx-auto grid grid-cols-1 gap-16 gap-y-12'>
             {EXPERIENCE.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
+              <InfoCard inView={inView} key={idx} {...props} />
             ))}
           </div>
         </div>
@@ -120,7 +126,7 @@ export function InformationSection() {
           </div>
           <div className='container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2'>
             {SKILLS.map((props, idx) => (
-              <InfoCard key={idx} {...props} />
+              <InfoCard inView={inView} key={idx} {...props} />
             ))}
           </div>
         </div>

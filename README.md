@@ -1,94 +1,52 @@
-# [NextJS Tailwind Resume Page](http://demos.creative-tim.com/nextjs-tailwind-resume-page?ref=readme-ntrp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-resume-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-resume-page)
+# Luke Okagha - Tech Innovator & Co-founder of TRICODE Professional Remote Network
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-resume-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues?q=is%3Aissue+is%3Aclosed)
+## Introduction
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/748/original/material-tailwind-react-resume-template-thumbnail.jpg)
+Welcome to the online portfolio of Luke Okagha, a visionary tech innovator, and co-founder of TRICODE Professional Remote Network.
 
-Introducing Tailwind Resume Page, a professional and visually appealing resume web page template crafted using Tailwind CSS and Material Tailwind.
+I'm committed to driving innovation and collaboration across industries. My passion for product development, blockchain technology, cybersecurity, and data encryption fuels my mission to create a more secure and collaborative workspace for project development and hardware product research.
 
-Are you on the hunt for a pre-designed and highly customizable resume web page template, perfect for job seekers, professionals, and freelancers looking to showcase their skills and qualifications online? Your search ends here! We are delighted to present the Free Resume Page Template, thoughtfully designed to cater to web developers looking to create a strong online resume.
+## About Me
 
-This template is built with the power of Tailwind CSS and Material Tailwind, providing seamless customization to match your unique personal branding. The free resume template includes key features such as hero image, logo, features, and testimonial sections.
+Luke Okagha is an entrepreneur and tech enthusiast dedicated to leveraging technology to solve real-world challenges. As the co-founder of TRICODE Professional Remote Network, Luke is leading the charge in building a global community of engineers and professionals to collaborate on projects and share knowledge.
 
-**Documentation built by Developers**
+## Areas of Expertise
 
-Each element is well presented in very complex documentation.
+- **Industrial Design**: Luke has a keen eye for 3D product rendering, electrical and electronics isometric drawing and a deep understanding of industrial design principles, enabling me to understand users' needs in both hardware and software products with multiple disciplines in programming languages such as python, JavaScript, R and a little bit of C+ to build cross functional applications design thinking principles in problem solving when innovating user-friendly products.
 
-You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
+- **Technical Support**: With extensive experience in technical support,
+I can easily learn and excel at troubleshooting network systems, firewalls testing and resolving technical issues to ensure smooth operations.
 
-**HELPFUL LINKS**
+- **DevOps Engineering**: Luke is proficient in DevOps practices and tools like Git action, K8 and Docker facilitating streamlined software development processes and enhanced collaboration between teams.
 
-- View [Github Repository](https://github.com/creativetimofficial/nextjs-tailwind-resume-page)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+- **Mechatronics Engineering**: Luke's expertise in mechatronics engineering enables him to design and develop complex electromechanical systems that integrate mechanical, electrical, and computer engineering principles.
 
-## [Demo](https://creative-tim.com/product/nextjs-tailwind-resume-page)
+## Past Projects
 
-## Quick start
+1. **MacAdog & Associate Engineering Consulting Firm (2017 - 2018)**:
+   - Completed a one-year industrial training program, gaining valuable experience in engineering consultancy which enabled me to strive within the Electrical Electronics installation industry.
 
-Quick start options:
+2. **Macson Swift Concept, Abuja (2017 - 2018)**:
+   - Installed CCTV systems and DVRs for remote viewing of IP security cameras via mobile applications, contributing to enhanced security measures.
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp).
+3. **Nago Logistics (July 2020 - September 2020)**:
+   - Developed the Nago Logistics WordPress website and implemented social media marketing strategies, improving online visibility and customer engagement.
 
-## Terminal Commands
+4. **OyaNow Mobile Application (June 2021 - August 2022)**:
+   - Served as a backend software maintenance engineer, responsible for backend vet processing, security firewall implementation, and pen testing, familiar with PHP framework Artisan.
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
+5. **University of Benin Taskman Transcript Tracker Mobile Application**:
+   - Led a team of software engineers as the technical product manager to develop a user-friendly mobile application using React Native for frontend development, Firebase for backend, and MongoDB for database management. Implemented key features such as job report tracking, student ID verification, and real-time chat functionality.
 
-## Documentation
+6. **Project T-Max Federal Government Skills Empowerment Initiative (January 2023 - April 2023)**:
+   - Participated as a student and part-time facilitator, teaching fundamentals of Python to students. Recognized as one of the prominent students and awarded certification in coding at the end of the program.
 
-The documentation for the Material Dashboard is hosted at our [website](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntrp).
+## Contact Information
 
-## Browser Support
+To learn more about Luke Okagha and TRICODE Professional Remote Network, please contact:
 
-At present, we officially aim to support the last two versions of the following browsers:
+- **Email**: info@lukeokagha.co  
+- **Website**: https://lukeokagha.co  
+- **LinkedIn**: https://linkedin.com/in/luke-okagha  
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-
-## Resources
-
-- [Live Preview](https://demos.creative-tim.com/nextjs-tailwind-resume-page?ref=readme-ntrp)
-- [Download Page](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp)
-- Documentation is [here](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntrp)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-ntrp)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-ntrp)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/nextjs-tailwind-resume-page/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
-
-## Reporting Issues
-
-We use GitHub Issues as the official bug tracker for the Nextjs Tailwind Author Page. Here are some advices for our users that want to report an issue:
-
-1. Make sure that you are using the latest version of the Nextjs Tailwind Author Page. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/nextjs-tailwind-resume-page?ref=readme-ntrp).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ntrp) instead of opening an issue.
-
-## Licensing
-
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-ntrp)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ntrp)
-
-## Useful Links
-
-- [More products](https://www.creative-tim.com/templates?ref=readme-ntrp) from Creative Tim
-
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
-
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ntrp) from Creative Tim
-
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ntrp) (earn money)
-
-##### Social Media
-
-Twitter: <https://twitter.com/CreativeTim>
-
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+Thank you for visiting Luke Okagha's online portfolio. Stay tuned for updates on his latest projects and endeavors in the world of technology and innovation.
