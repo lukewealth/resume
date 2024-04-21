@@ -28,6 +28,17 @@ function Hero() {
             variant='lead'
             className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12'
           >
+About Me
+Luke Okagha is an entrepreneur and tech enthusiast dedicated to leveraging technology to solve real-world challenges. As the co-founder of TRICODE Professional Remote Network, Luke is leading the charge in building a global community of engineers and professionals to collaborate on projects and share knowledge.
+
+Areas of Expertise
+Industrial Design: Luke has a keen eye for 3D product rendering, electrical and electronics isometric drawing and a deep understanding of industrial design principles, enabling me to understand users' needs in both hardware and software products with multiple disciplines in programming languages such as python, JavaScript, R and a little bit of C+ to build cross functional applications design thinking principles in problem solving when innovating user-friendly products.
+
+Technical Support: With extensive experience in technical support, I can easily learn and excel at troubleshooting network systems, firewalls testing and resolving technical issues to ensure smooth operations.
+
+DevOps Engineering: Luke is proficient in DevOps practices and tools like Git action, K8 and Docker facilitating streamlined software development processes and enhanced collaboration between teams.
+
+
             Discover what clients have to say about their experiences working
             with me. My client&apos;s satisfaction is my greatest achievement!
           </Typography>
