@@ -9,10 +9,6 @@ const roboto = Roboto({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Luke Okagha",
-  description: "Technical Product Manager",
-};
 
 export default function RootLayout({
   children,
