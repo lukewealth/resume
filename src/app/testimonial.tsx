@@ -15,12 +15,8 @@ export function Testimonial() {
 
   return (
     <section className='py-12 px-8 mb-20 lg:py-24'>
-     
-        <Card color='transparent' shadow={false} className='py-8 lg:flex-row'>
-          <CardBody className='w-full lg:gap-10 h-full lg:!flex justify-between '>
-            <div className='w-full mb-10 lg:mb-0'>
-
-         <div className='container mx-auto mb-20 text-center'>
+      <div className='container max-w-screen-lg mx-auto'>
+        <div className='container mx-auto mb-20 text-center'>
           <Typography variant='h2' color='blue-gray' className='mb-4'>
             What Clients Say
           </Typography>
@@ -28,11 +24,14 @@ export function Testimonial() {
             variant='lead'
             className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12'
           >
-
             Discover what clients have to say about their experiences working
             with me. My client&apos;s satisfaction is my greatest achievement!
-          </Typography>       
-<Typography
+          </Typography>
+        </div>
+        <Card color='transparent' shadow={false} className='py-8 lg:flex-row'>
+          <CardBody className='w-full lg:gap-10 h-full lg:!flex justify-between '>
+            <div className='w-full mb-10 lg:mb-0'>
+              <Typography
                 variant='h3'
                 color='blue-gray'
                 className='mb-4 font-bold lg:max-w-xs'
@@ -88,36 +87,7 @@ export function Testimonial() {
                 />
               </div> */}
             </div>
-            <div className='h-[21rem] rounded-lg w-full sm:w-[18rem] shrink-0'>
-              <Image
-                width={768}
-                height={768}
-                src={`/image/luke.jpg`}
-                alt='testimonial image'
-                className='h-full rounded-lg w-full object-cover'
-              />
-              <Typography className='mt-12 mb-4 text-blue-gray-900 font-medium uppercase'>
-                Connect me on:
-              </Typography>
-              <div className='gap-2 lg:flex'>
-                <IconButton variant='text' color='gray'>
-                  <a href='https://linkedin.com/in/luke-okagha'>
-                    <i className='fa-brands fa-linkedin text-lg' />
-                  </a>
-                </IconButton>
-                <IconButton variant='text' color='gray'>
-                  <a href='https://github.com/lukewealth'>
-                    <i className='fa-brands fa-github text-lg' />
-                  </a>
-                </IconButton>
-              </div>
-              <a
-                className='text-green-700 font-semibold hover:underline'
-                href='https://drive.google.com/file/d/1XaXLyip53gAJV-SI0w70518J0wmzwLSF/view?usp=drivesdk'
-              >
-                Download Cv
-              </a>
-            </div>
+           
           </CardBody>
         </Card>
       </div>
