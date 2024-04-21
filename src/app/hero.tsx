@@ -14,8 +14,22 @@ function Hero() {
             color='gray'
             className='mt-4 mb-12 w-full md:max-w-full lg:max-w-4xl'
           >
+
             Welcome to the online portfolio of Luke Okagha, a visionary tech
             innovator, and co-founder of TRICODE Professional Remote Network.
+          </Typography>
+        </div>
+ <div className='container max-w-screen-lg mx-auto'>
+        <div className='container mx-auto mb-20 text-center'>
+          <Typography variant='h2' color='blue-gray' className='mb-4'>
+            What Clients Say
+          </Typography>
+          <Typography
+            variant='lead'
+            className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12'
+          >
+            Discover what clients have to say about their experiences working
+            with me. My client&apos;s satisfaction is my greatest achievement!
           </Typography>
         </div>
       </div>
