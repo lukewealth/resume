@@ -25,6 +25,36 @@ const EDUCATION = [
       "Relevant Coursework: Data Structures, Algorithms, Web Development, Software Engineering, Database Management.",
   },
 ];
+const PROJECTS = [
+  {
+    icon: BriefcaseIcon,
+    title: "Unversity of Benin TaskMan Android Application",
+    date: "2023",
+    children:
+      "Developed screen components UI using react-native. Implemented chat functionality using and push notifications.",
+  },
+  {
+    icon: BriefcaseIcon,
+    title: "TRICODE NETWORK",
+    date: "2023",
+    children:
+      "I created TRICODE NETWORK which is a remote recruitment Platform for software programmers and Engineers.",
+  },
+  {
+    icon: BriefcaseIcon,
+    title: "Project Irecycle",
+    date: "2022",
+    children:
+      "Coordinated a team of developers during research and development. Provided insights on datas and presented to governmental bodies.",
+  },
+  {
+    icon: BriefcaseIcon,
+    title: "OyaNow Mobile Application",
+    date: "2020",
+    children:
+      "Implemented store API , Wrote data structure and designed database using Python and storage in mogoDB",
+  },
+];
 
 const EXPERIENCE = [
   {
@@ -75,12 +105,15 @@ const SKILLS = [
 ];
 
 export function InformationSection() {
-  const { ref, inView } = useInView({ threshold: 0.5 });
+  const { ref, inView } = useInView({ threshold: 0.3 });
+  const { ref: ref1, inView: inView1 } = useInView({ threshold: 0.3 });
+  const { ref: ref2, inView: inView2 } = useInView({ threshold: 0.3 });
+  const { ref: ref3, inView: inView3 } = useInView({ threshold: 0.3 });
 
   return (
-    <section ref={ref} className='pb-28  px-8'>
-      <div className='grid xl:grid-cols-2 md:grid-cols-1 container gap-20 mx-auto items-start'>
-        <div>
+    <section className='pb-28 w-full px-8'>
+      <div className='grid xl:grid-cols-2 md:grid-cols-1 container w-full gap-20 mx-auto items-start'>
+        <div ref={ref}>
           <div className='mb-10'>
             <Typography color='blue-gray' className='mb-2 text-3xl font-bold'>
               Education & Certifications
@@ -95,7 +128,7 @@ export function InformationSection() {
             ))}
           </div>
         </div>
-        <div>
+        <div ref={ref1}>
           <div className='mb-10'>
             <Typography color='blue-gray' className='mb-2 text-3xl font-bold'>
               Experience
@@ -106,12 +139,27 @@ export function InformationSection() {
           </div>
           <div className='container mx-auto grid grid-cols-1 gap-16 gap-y-12'>
             {EXPERIENCE.map((props, idx) => (
-              <InfoCard inView={inView} key={idx} {...props} />
+              <InfoCard inView={inView1} key={idx.toString()} {...props} />
+            ))}
+          </div>
+        </div>
+        <div className='w-full' ref={ref2}>
+          <div className='mb-10'>
+            <Typography color='blue-gray' className='mb-2 text-3xl font-bold'>
+              Projects
+            </Typography>
+            <Typography variant='lead' className='!text-gray-500'>
+              See my projects undertaken.
+            </Typography>
+          </div>
+          <div className='container mx-auto w-[80vw] border grid grid-cols-1 md:grid-cols-2 gap-16 gap-y-12'>
+            {PROJECTS.map((props, idx) => (
+              <InfoCard inView={inView2} key={idx.toString()} {...props} />
             ))}
           </div>
         </div>
       </div>
-      <div className='container gap-20 mt-36 mx-auto items-center'>
+      <div ref={ref3} className='container gap-20 mt-36 mx-auto items-center'>
         <div>
           <div className='mb-10'>
             <Typography color='blue-gray' className='mb-2 text-3xl font-bold'>
@@ -123,7 +171,7 @@ export function InformationSection() {
           </div>
           <div className='container mx-auto grid grid-cols-1 gap-16 gap-y-12 lg:grid-cols-2'>
             {SKILLS.map((props, idx) => (
-              <InfoCard inView={inView} key={idx} {...props} />
+              <InfoCard inView={inView3} key={idx.toString()} {...props} />
             ))}
           </div>
         </div>

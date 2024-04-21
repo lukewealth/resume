@@ -91,7 +91,7 @@ export function Testimonial() {
               <Image
                 width={768}
                 height={768}
-                src={`/image/avatar${active}.jpg`}
+                src={`/image/luke.jpg`}
                 alt='testimonial image'
                 className='h-full rounded-lg w-full object-cover'
               />

@@ -4,7 +4,7 @@ import {
   CardBody,
   Typography,
   IconButton,
-} from "@material-tailwind/react";
+} from "@/components/tailwind/compo";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
