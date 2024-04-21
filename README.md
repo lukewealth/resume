@@ -1,5 +1,4 @@
-# Luke Okagha - Techincal Product Manager, 
-Innovator & Co-founder of TRICODE Professional Remote work
+# Luke Okagha - Tech Innovator & Co-founder of TRICODE Professional Remote Network
 
 ## Introduction
 

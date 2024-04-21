@@ -11,7 +11,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Luke Okagha",
-  description: "Technical Product Manager", // Add your description here
+  description: "Technical Product Manager",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
           crossOrigin='anonymous'
           referrerPolicy='no-referrer'
         />
-        <link rel='shortcut icon' href='/' type='image/png' />
+        <link rel='shortcut icon' href='/favicon.png' type='image/png' />
       </head>
       <body className={roboto.className}>
         <Layout>

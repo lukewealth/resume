@@ -36,7 +36,7 @@ export function Testimonial() {
                 color='blue-gray'
                 className='mb-4 font-bold lg:max-w-xs'
               >
-                Mobile App Development
+                Uniben Taskman Mobile Application
               </Typography>
               <Typography className='mb-3 w-full lg:w-8/12 font-normal !text-gray-500'>
                 I had the pleasure of working with Luke on a critical web
@@ -44,7 +44,7 @@ export function Testimonial() {
                 expertise and professionalism exceeded my expectations.
               </Typography>
               <Typography variant='h6' color='blue-gray' className='mb-0.5'>
-                Luke - Technical Manager
+                Victor - Exams and Records
               </Typography>
               <Typography
                 variant='small'
@@ -87,7 +87,6 @@ export function Testimonial() {
                 />
               </div> */}
             </div>
-           
           </CardBody>
         </Card>
       </div>
