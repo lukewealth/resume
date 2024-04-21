@@ -17,17 +17,12 @@ function Hero() {
 
             Welcome to the online portfolio of Luke Okagha, a visionary tech
             innovator, and co-founder of TRICODE Professional Remote Network.
+
+I'm committed to driving innovation and collaboration across industries. My passion for product development, blockchain technology, cybersecurity, and data encryption fuels my mission to create a more secure and collaborative workspace for project development and hardware product research.
           </Typography>
         </div>
  <div className='container max-w-screen-lg mx-auto'>
-        <div className='container mx-auto mb-20 text-center'>
-          <Typography variant='h2' color='blue-gray' className='mb-4'>
-            What Clients Say
-          </Typography>
-          <Typography
-            variant='lead'
-            className='mx-auto w-full px-4 font-normal !text-gray-500 lg:w-8/12'
-          >
+      
 About Me
 Luke Okagha is an entrepreneur and tech enthusiast dedicated to leveraging technology to solve real-world challenges. As the co-founder of TRICODE Professional Remote Network, Luke is leading the charge in building a global community of engineers and professionals to collaborate on projects and share knowledge.
 
@@ -39,9 +34,6 @@ Technical Support: With extensive experience in technical support, I can easily 
 DevOps Engineering: Luke is proficient in DevOps practices and tools like Git action, K8 and Docker facilitating streamlined software development processes and enhanced collaboration between teams.
 
 
-            Discover what clients have to say about their experiences working
-            with me. My client&apos;s satisfaction is my greatest achievement!
-          </Typography>
         </div>
       </div>
     </div>
